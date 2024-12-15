@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.info {
+    margin-top: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.galeria img, .galeria video {
+    width: 300px;
+    margin: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+}
